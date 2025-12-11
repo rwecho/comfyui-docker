@@ -30,9 +30,13 @@ RUN --mount=type=cache,target=/root/.cache/pip \
     pip install -r /root/ComfyUI/requirements.txt && \
     pip install -r /root/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
 
-# Copy entrypoint script
+# Copy entrypoint script and nodes list
+COPY extra_nodes.txt /extra_nodes.txt
+COPY install_nodes.sh /install_nodes.sh
 COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+
+RUN chmod +x /install_nodes.sh /entrypoint.sh && \
+    /install_nodes.sh
 
 WORKDIR /root/ComfyUI
 

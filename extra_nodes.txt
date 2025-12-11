@@ -1,0 +1,23 @@
+# ComfyUI Custom Nodes List
+# Add git repository URLs here, one per line.
+# Lines starting with # are ignored.
+
+# ComfyUI Manager (Essential)
+https://github.com/ltdrdata/ComfyUI-Manager.git
+
+# Resource Monitor & Tools
+https://github.com/crystian/ComfyUI-Crystools.git
+
+# IPAdapter Plus (Style Transfer)
+https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
+
+# ControlNet Preprocessors
+https://github.com/Fannovel16/comfyui_controlnet_aux.git
+
+# Workspace Manager
+https://github.com/11cafe/comfyui-workspace-manager.git
+
+# Easy Use Nodes
+https://github.com/yolain/ComfyUI-Easy-Use.git
+
+https://github.com/1038lab/ComfyUI-QwenVL
