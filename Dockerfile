@@ -19,10 +19,10 @@ RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
     && rm -rf /var/lib/apt/lists/*
 
 # Clones the ComfyUI repository
-RUN git clone --depth=1 https://github.com/comfyanonymous/ComfyUI.git /root/ComfyUI
+RUN git clone --depth=1 https://github.com/comfyanonymous/ComfyUI.git /root/ComfyUI \
+    && mkdir -p /root/ComfyUI/custom_nodes \
+    && git clone --depth=1 https://github.com/ltdrdata/ComfyUI-Manager.git /root/ComfyUI/custom_nodes/ComfyUI-Manager
 
-# Clones the ComfyUI Manager
-RUN git clone --depth=1 https://github.com/ltdrdata/ComfyUI-Manager.git /root/ComfyUI/custom_nodes/ComfyUI-Manager
 
 # Install dependencies
 # Use cache for pip to speed up rebuilds
