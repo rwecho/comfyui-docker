@@ -40,7 +40,8 @@ if [ -f "$NODES_FILE" ]; then
     CLEAN_REQ="/tmp/clean_requirements.txt"
     
     # Find all requirements.txt files in custom_nodes subdirectories
-    find "$TARGET_DIR" -mindepth 2 -maxdepth 2 -name "requirements.txt" -exec cat {} + > "$TEMP_REQ"
+    # Use awk 1 to ensure files ending without newline don't merge with next file's first line
+    find "$TARGET_DIR" -mindepth 2 -maxdepth 2 -name "requirements.txt" -exec awk 1 {} + > "$TEMP_REQ"
     
     if [ -s "$TEMP_REQ" ]; then
         # Process requirements:
