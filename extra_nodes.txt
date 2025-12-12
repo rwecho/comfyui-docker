@@ -27,7 +27,8 @@ https://github.com/rgthree/rgthree-comfy.git
 https://github.com/chrisgoringe/cg-use-everywhere.git
 
 # Qwen-VL models integration
-https://github.com/1038lab/ComfyUI-QwenVL.git
+# 排除掉, 编译太慢
+#https://github.com/1038lab/ComfyUI-QwenVL.git
 
 # Segment Anything 2 (SAM2) integration
 https://github.com/kijai/ComfyUI-segment-anything-2.git
