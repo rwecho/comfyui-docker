@@ -20,4 +20,38 @@ https://github.com/11cafe/comfyui-workspace-manager.git
 # Easy Use Nodes
 https://github.com/yolain/ComfyUI-Easy-Use.git
 
-https://github.com/1038lab/ComfyUI-QwenVL
+# Rgthree Comfy (Essential utility nodes & UI improvements)
+https://github.com/rgthree/rgthree-comfy.git
+
+# Use Everywhere (Wireless data broadcasting)
+https://github.com/chrisgoringe/cg-use-everywhere.git
+
+# Qwen-VL models integration
+https://github.com/1038lab/ComfyUI-QwenVL.git
+
+# Segment Anything 2 (SAM2) integration
+https://github.com/kijai/ComfyUI-segment-anything-2.git
+
+# KJNodes (Collection of quality-of-life & utility nodes)
+https://github.com/kijai/ComfyUI-KJNodes.git
+
+# WanVideo / Wan2.1 Wrapper
+https://github.com/kijai/ComfyUI-WanVideoWrapper.git
+
+# WanAnimate Preprocess (ViTPose, SAM2 for WanVideo)
+https://github.com/kijai/ComfyUI-WanAnimatePreprocess.git
+
+# Microsoft Florence-2 VLM support
+https://github.com/kijai/ComfyUI-Florence2.git
+
+# CogVideoX Wrapper
+https://github.com/kijai/ComfyUI-CogVideoXWrapper.git
+
+# Depth Anything V2
+https://github.com/kijai/ComfyUI-DepthAnythingV2.git
+
+# FramePack / HunyuanVideo Wrapper
+https://github.com/kijai/ComfyUI-FramePackWrapper.git
+
+# Video Frame Interpolation (RIFE, FILM, etc.)
+https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git
